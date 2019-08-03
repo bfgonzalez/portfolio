@@ -6,13 +6,13 @@ const Footer = () => (
   <footer id="footer" className="footer has-background-primary">
     <div className="content has-text-centered has-text-white">
       <div className="is-size-3">
-        <a href="https://github.com/bfgonzalez" target="_blank" className="has-text-white mr-2">
+        <a href="https://github.com/bfgonzalez" target="_blank" rel="noopener noreferrer" className="has-text-white mr-2">
           <FontAwesomeIcon icon={faGithub}/>
         </a>
-        <a href="https://dev.to/bfgonzalez" target="_blank" className="has-text-white mr-2">
+        <a href="https://dev.to/bfgonzalez" target="_blank" rel="noopener noreferrer" className="has-text-white mr-2">
           <FontAwesomeIcon icon={faDev}/>
         </a>
-        <a href="https://www.linkedin.com/in/bfgonzalez/" target="_blank" className="has-text-white">
+        <a href="https://www.linkedin.com/in/bfgonzalez/" target="_blank" rel="noopener noreferrer" className="has-text-white">
           <FontAwesomeIcon icon={faLinkedin}/>
         </a>
       </div>

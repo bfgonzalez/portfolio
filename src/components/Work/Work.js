@@ -1,7 +1,5 @@
 import React from "react"
 import ProjectTiles from "./ProjectTiles";
-import ampWebsiteThumbnail from "../../assets/amp-website.png"
-import uxsocWebsiteThumbnail from "../../assets/uxsoc-website.png"
 
 const Work = () => (
   <section id="work" className="section is-medium">
