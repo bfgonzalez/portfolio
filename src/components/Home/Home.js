@@ -5,7 +5,7 @@ const Home = () => (
   <section className="section is-large">
     <div className="columns has-text-centered is-centered">
       <div className="column is-8 has-text-left">
-        <h1 className="title mb-4">Front-End Web Developer and User Interface (UI) Designer</h1>
+        <h1 className="title mb-4">Front-End Web Developer and User Interface Designer</h1>
         <h2 className="subtitle">
           I see the entire process through from ideation to creation.
         </h2>
