@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/Template/Layout"
 import Home from "../components/Home/Home"
 import About from "../components/About/About"
+import Work from "../components/Work/Work"
 import SEO from "../components/seo"
 
 import "../styles/variables.scss"
@@ -13,6 +13,7 @@ const Index = () => (
     <SEO title="Home" />
     <Home/>
     <About/>
+    <Work/>
   </Layout>
 )
 
