@@ -7,7 +7,7 @@ const Home = () => (
       <div className="column is-1"></div>
       <div className="column is-10 has-text-left">
         <h1 className="title mb-4">Front-End Web Developer and User Interface (UI) Designer</h1>
-        <h2 className="subtitle test-border">
+        <h2 className="subtitle">
           I see the entire process through from ideation to creation.
         </h2>
         <div className="buttons">
