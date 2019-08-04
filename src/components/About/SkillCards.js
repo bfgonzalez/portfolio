@@ -4,19 +4,18 @@ import classnames from "classnames"
 const SkillCard = ({ bgColor, header, subheader1, subheader2, skills, tools }) => (
   <div className={classnames(`card has-text-white has-text-left has-background-${bgColor}`)}>
     <div className="card-content has-text-white">
-      <h3 className="is-size-3 has-text-weight-bold mb-5">{header}</h3>
-      <p className="is-size-5 has-text-weight-bold">{subheader1}</p>
+      <h3 className="is-size-3 is-size-4-mobile has-text-weight-bold mb-3">{header}</h3>
+      <p className="is-size-5  is-size-6-mobile has-text-weight-bold">{subheader1}</p>
       <p>{skills}</p>
       <br/>
-      <p className="is-size-5 has-text-weight-bold">{subheader2}</p>
+      <p className="is-size-5 is-size-6-mobile has-text-weight-bold">{subheader2}</p>
       <p>{tools}</p>
     </div>
   </div>
 )
 
 const SkillCards = () => (
-  <div className="columns">
-    <div className="column is-1"></div>
+  <div className="columns is-centered">
     <div className="column is-5">
       <SkillCard
         bgColor="primary"
@@ -35,7 +34,6 @@ const SkillCards = () => (
         subheader2="Tools"
         tools="Pen & Paper, Figma, Adobe XD, InVision, Marvel"/>
     </div>
-    <div className="is-1"></div>
   </div>
 )
 

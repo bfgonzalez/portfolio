@@ -15,14 +15,14 @@ const ProjectTile = ({ imageSource, altText }) => {
 const ProjectTiles = () => (
   <div className="columns">
     <div className="column is-6">
-      <a href="https://www.uxsociety.org/" target="_blank">
+      <a href="https://www.uxsociety.org/" target="_blank" rel="noopener noreferrer">
         <ProjectTile
           altText="User Experience Society (Official Website)"
           imageSource={uxsocWebsiteThumbnail}/>
       </a>
     </div>
     <div className="column is-6">
-      <a href="https://bfgonzalez.github.io/amp-website" target="_blank">
+      <a href="https://bfgonzalez.github.io/amp-website" target="_blank" rel="noopener noreferrer">
         <ProjectTile
           altText="Ateneo Musicians' Pool (Mock Redesign)"
           imageSource={ampWebsiteThumbnail}/>
