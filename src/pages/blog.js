@@ -6,13 +6,11 @@ import SEO from "../components/seo"
 const Blog = () => (
   <Layout>
     <SEO title="Blog" />
-    <section className="section is-large">
-      <div className="columns has-text-centered is-centered">
-        <div className="column is-8">
-          <h1 className="title mb-4">Coming Soon!</h1>
-        </div>
+    <div className="columns is-centered is-vcentered full-height">
+      <div className="has-text-centered column is-8 is-10-mobile mt-6">
+        <h1 className="title mb-4 is-size-4-mobile">Coming Soon!</h1>
       </div>
-    </section>
+    </div>
   </Layout>
 )
 
