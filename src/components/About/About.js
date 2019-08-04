@@ -3,7 +3,7 @@ import SkillCards from "./SkillCards"
 
 const About = () => (
   <section id="about" className="section is-medium">
-    <div className="columns has-text-centered is-centered mb-4">
+    <div className="columns has-text-centered is-centered mt-2 mb-4">
       <div className="column is-10">
         <h1 className="title mb-5 has-text-centered is-size-4-mobile">Hey there, I'm Bianca!</h1>
         <p className="subtitle has-text-left ml-1">
