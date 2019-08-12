@@ -3,6 +3,8 @@ module.exports = {
     title: `Bianca Gonzalez`,
     description: `Hi there, I'm Bianca! I'm a self-taught Front-End Web Developer and User Interface (UI) Designer.`,
     author: `@bfgonzalez`,
+    url: `https://bfgonzalez.netlify.com`,
+    image: `./public/static/thumbnail.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,6 +32,6 @@ module.exports = {
     `gatsby-plugin-sass`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
