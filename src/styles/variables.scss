@@ -29,16 +29,8 @@ $spacer: 0.6rem;
 // card
 $card-content-padding: 2rem;
 
-// @each $name, $pair in $colors {
-//   $color: nth($pair, 1);
-//   $color-invert: nth($pair, 2);
-
-//   &.is-#{$name} {
-//     background-color: $color;
-//     border-color: transparent;
-//     color: $color-invert;
-//   }
-// }
+// increased subtitle line height for better readability
+$subtitle-line-height: 1.7em;
 
 
 
