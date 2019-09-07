@@ -11,13 +11,13 @@ const Home = () => (
       </p>
       <div className="is-size-3 mt-0">
         <a href="https://github.com/bfgonzalez" target="_blank" rel="noopener noreferrer" className="mr-2">
-          <FontAwesomeIcon icon={faGithub}/>
+          <FontAwesomeIcon icon={faGithub} width="32"/>
         </a>
         <a href="https://dev.to/bfgonzalez" target="_blank" rel="noopener noreferrer" className="mr-2">
-          <FontAwesomeIcon icon={faDev}/>
+          <FontAwesomeIcon icon={faDev} width="32"/>
         </a>
         <a href="https://www.linkedin.com/in/bfgonzalez/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin}/>
+          <FontAwesomeIcon icon={faLinkedin} width="32"/>
         </a>
       </div>
     </div>
