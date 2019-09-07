@@ -16,7 +16,7 @@ const Footer = () => (
           <FontAwesomeIcon icon={faLinkedin} width="32"/>
         </a>
       </div>
-      <p className="is-size-6 mt-1">
+      <p className="is-size-6">
         Bianca Gonzalez © {new Date().getFullYear()}
       </p>
     </div>
