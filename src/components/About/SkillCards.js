@@ -4,10 +4,10 @@ import classnames from "classnames"
 import skills from "../../assets/skills.json"
 
 const SkillCard = ({ content }) => {
-  let { bgColor, header, skills, tools } = content;
+  let { header, skills, tools } = content;
 
   return(
-    <div className={classnames(`card has-text-white has-text-left has-background-${bgColor}`)}>
+    <div className={classnames("card has-text-white has-text-left has-background-primary")}>
       <div className="card-content has-text-white">
         <h3 className="is-size-3 is-size-4-mobile has-text-weight-bold mb-3">{header}</h3>
         <p className="is-size-5  is-size-6-mobile has-text-weight-bold">Skills</p>

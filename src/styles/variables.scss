@@ -7,17 +7,15 @@ $family-primary: "Avenir", sans-serif;
 $family-secondary: "Montserrat", sans-serif;
 
 // Initial variables
-$light-blue: #00BCD4;
-$dark-blue: #4285F4;
+$dark-blue: #003366;
 $black: #424242;
 $grey: #9A9595;
 $white: #FFFFFF;
 
-$custom-colors: $light-blue, $dark-blue, $black, $grey, $white;
+$custom-colors: $dark-blue, $black, $grey, $white;
 
 // Derived variables
-$primary: $light-blue;
-$info: $dark-blue;
+$primary: $dark-blue;
 $text: $black;
 $footer-background-color: $white;
 $footer-padding: 1rem;
@@ -29,7 +27,8 @@ $spacer: 0.6rem;
 // card
 $card-content-padding: 2rem;
 
-// increased subtitle line height for better readability
+// increased line height for better readability
+$title-line-height: 1.5em;
 $subtitle-line-height: 1.7em;
 
 
