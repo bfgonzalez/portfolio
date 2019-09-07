@@ -2,33 +2,45 @@ import React from "react"
 import ampWebsiteThumbnail from "../../assets/amp-website.png"
 import uxsocWebsiteThumbnail from "../../assets/uxsoc-website.png"
 
-const ProjectTile = ({ imageSource, altText }) => {
+
+const projects = [
+  {
+    "url": "https://www.uxsociety.org/",
+    "imageSource": uxsocWebsiteThumbnail,
+    "altText": "User Experience Society (Official Website)"
+  },
+  {
+    "url": "https://bfgonzalez.github.io/amp-website",
+    "imageSource": ampWebsiteThumbnail,
+    "altText": "Ateneo Musicians' Pool (Mock Redesign)"
+
+  }
+]
+
+const ProjectTile = ({ content }) => {
+  let {url, imageSource, altText} = content;
+
   return(
     <div>
-      <div className="image">
-        <img src={imageSource} alt={altText}/>
-      </div>
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <div className="image">
+          <img src={imageSource} alt={altText}/>
+        </div>
+      </a>
     </div>
   )
 }
 
-const ProjectTiles = () => (
-  <div className="columns">
-    <div className="column is-6">
-      <a href="https://www.uxsociety.org/" target="_blank" rel="noopener noreferrer">
-        <ProjectTile
-          altText="User Experience Society (Official Website)"
-          imageSource={uxsocWebsiteThumbnail}/>
-      </a>
+const ProjectTiles = () => {
+  return(
+    <div className="columns">
+      {projects.map((project, index) => (
+        <div className="column is-6">
+          <ProjectTile key={index} content={project}/>
+        </div>
+      ))}
     </div>
-    <div className="column is-6">
-      <a href="https://bfgonzalez.github.io/amp-website" target="_blank" rel="noopener noreferrer">
-        <ProjectTile
-          altText="Ateneo Musicians' Pool (Mock Redesign)"
-          imageSource={ampWebsiteThumbnail}/>
-      </a>
-    </div>
-  </div>
-)
+  )
+}
 
 export default ProjectTiles
