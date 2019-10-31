@@ -4,8 +4,8 @@ import { faGithub, faLinkedin, faDev } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => (
   <div className="columns is-centered is-vcentered full-height">
-    <div className="column is-7 is-10-mobile has-text-left mt-6">
-      <h1 className="title mb-3 is-size-4-mobile">Front-End Web Developer and User Interface Designer</h1>
+    <div className="column is-6 is-10-mobile has-text-left mt-6">
+      <h1 className="title mb-3 is-size-4-mobile">Web Developer and User Interface Designer</h1>
       <p className="subtitle mb-1">
         I see the entire process through from ideation to creation.
       </p>
