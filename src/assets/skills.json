@@ -1,12 +1,12 @@
 [
   {
     "header": "Web Developer",
-    "skills": "HTML, CSS, JavaScript, React, Responsive Web Design, Google Apps Script, Python, Django, Django Rest Framework",
-    "tools": "NPM/Yarn, Sass, Bulma, Gatsby, Git, Github, Visual Studio Code, Terminal"
+    "skills": "HTML, CSS, JavaScript, React, Gatsby, Responsive Web Design, Google Apps Script, Python, Django, Django REST Framework, SQL",
+    "tools": "Git, Github, Sass, Bulma, npm, Yarn, Formik, Yup, axios, Netlify, Visual Studio Code, Terminal"
   },
   {
     "header": "User Interface Designer",
-    "skills": "Research, Wireframs, Mockups, Prototyping",
+    "skills": "Research, Wireframes, Mockups, Prototyping",
     "tools": "Pen & Paper, Figma, Adobe XD, InVision, Marvel"
   }
 ]
