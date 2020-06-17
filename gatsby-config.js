@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Bianca Gonzalez`,
     description: `Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer.`,
-    author: `@bfgonzalez`,
+    author: `@bfgonzalez`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Bianca Gonzalez - Portfolio`,
+        short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#003366`,
         theme_color: `#003366`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        thumbnail: `src/images/thumbnail.png`
       },
     },
     `gatsby-plugin-sass`
