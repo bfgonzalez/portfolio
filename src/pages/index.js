@@ -10,7 +10,7 @@ import "../styles/variables.scss"
 
 const Index = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Bianca Gonzalez"/>
     <Home/>
     <About/>
     <Work/>
