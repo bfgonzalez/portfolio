@@ -1,9 +1,18 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faDev } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => (
   <div className="columns is-centered is-vcentered full-height">
+    <Helmet>
+      <meta name="description" content="Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer."/>
+      <meta property="og:url" content="https://bfgonzalez.netlify.app"/>
+      <meta property="og:title" content="Bianca Gonzalez"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:image" content="../../images/thumbnail.png"/>
+      <meta property="og:description" content="Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer."/>
+    </Helmet>
     <div className="column is-6 is-10-mobile has-text-left mt-6">
       <h1 className="title mb-3 is-size-4-mobile">Web Developer and User Interface Designer</h1>
       <p className="subtitle mb-1">
