@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Bianca Gonzalez`,
     description: `Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer.`,
+    url: `https://bfgonzalez.netlify.app`,
+    image: `/images/thumbnail.png`,
     author: `@bfgonzalez`
   },
   plugins: [
