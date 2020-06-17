@@ -10,7 +10,7 @@ const Home = () => (
       <meta property="og:url" content="https://bfgonzalez.netlify.app"/>
       <meta property="og:title" content="Bianca Gonzalez"/>
       <meta property="og:type" content="website"/>
-      <meta property="og:image" content="../../images/thumbnail.png"/>
+      <meta property="og:image" content="https://i.imgur.com/UvZJjcu.jpg"/>
       <meta property="og:description" content="Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer."/>
     </Helmet>
     <div className="column is-6 is-10-mobile has-text-left mt-6">
