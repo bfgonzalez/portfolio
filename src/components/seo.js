@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `thumbnail`,
+          content: image,
         },
         {
           property: `og:type`,
