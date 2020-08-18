@@ -1,5 +1,5 @@
 # Portfolio V4
-Version for of my personal portfolio website [(view here)](<https://bfgonzalez.netlify.com/>)
+Version 4 of my personal portfolio website [(view here)](<https://bfgonzalez.netlify.com/>)
 
 ## Built With
 - [React Hooks](<https://reactjs.org/docs/hooks-intro.html>)
