@@ -22,7 +22,7 @@ const projects = [
 			"A mock redesign of the Ateneo Musicians' Pool website. The Ateneo Musicians' Pool (AMP) is a non-profit organization where individuals realize their holistic formation through music.",
 		imageSource: ampWebsiteThumbnail,
 		altText: "Ateneo Musicians' Pool (Mock Redesign)",
-		techStack: ["HTML", "CSS", "JavsScript"],
+		techStack: ["HTML", "CSS", "JavaScript"],
 	},
 ]
 
