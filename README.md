@@ -4,4 +4,4 @@ The 4th iteration of my personal portfolio website. This project was built with 
 
 [Demo](https://bfgonzalez.netlify.com/)
 
-![thumbnail]("/public/static/thumbnail.png")
+<img src="https://github.com/bfgonzalez/portfolio/blob/master/public/static/thumbnail.png">
