@@ -1,8 +1,7 @@
-# Portfolio V4
-Version 4 of my personal portfolio website [(view here)](<https://bfgonzalez.netlify.com/>)
+# Portfolio
 
-## Built With
-- [React Hooks](<https://reactjs.org/docs/hooks-intro.html>)
-- [Gatsby](<https://www.gatsbyjs.org/>)
-- [Bulma](<https://bulma.io/>)
-- [Netlify](<https://www.netlify.com/>)
+The 4th iteration of my personal portfolio website. This project was built with [Gatsby](https://www.gatsbyjs.org/) and [React Hooks](https://reactjs.org/docs/hooks-intro.html), styled with [Bulma](https://bulma.io/), and hosted on [Netlify](https://www.netlify.com/).
+
+[Demo](https://bfgonzalez.netlify.com/)
+
+![thumbnail]("./public/static/thumbnail.png")
