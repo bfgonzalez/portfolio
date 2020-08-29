@@ -1,0 +1,24 @@
+[
+  {
+    "projectTitle": "User Experience Society (Official Website)",
+    "projectUrl": "https://www.uxsociety.org/",
+    "githubUrl": "https://github.com/UXSoc/uxsoc-react-app",
+    "projectDescription": "The official website of User Experience Society, a student organization that advocates and practices human-centered design in solving problems in the community.",
+    "altText": "User Experience Society (Official Website)",
+    "techStack": ["React.js", "Netlify", "Responsive Web Design"]
+  },
+  {
+    "projectTitle": "Ateneo Musicians' Pool Website (Mock Redesign)",
+    "projectUrl": "https://bfgonzalez.github.io/amp-website",
+    "githubUrl": "https://github.com/bfgonzalez/amp-website",
+    "projectDescription": "A mock redesign of the Ateneo Musicians' Pool website. The Ateneo Musicians' Pool (AMP) is a non-profit organization where individuals realize their holistic formation through music.",
+    "altText": "Ateneo Musicians' Pool (Mock Redesign)",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Github Pages",
+      "Responsive Web Design"
+    ]
+  }
+]
