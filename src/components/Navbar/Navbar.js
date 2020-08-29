@@ -10,7 +10,7 @@ const Navbar = () => {
       className="navbar is-fixed-top is-family-secondary is-transparent is-spaced"
       role="navigation">
       <div className="navbar-brand">
-        <Link className="navbar-item has-text-weight-bold is-size-4" to="/">
+        <Link className="navbar-item has-text-weight-bold is-size-4 has-text-primary" to="/">
           BIANCA GONZALEZ
         </Link>
         <div className="navbar-burger" onClick={() => setActive(!isActive)}>
