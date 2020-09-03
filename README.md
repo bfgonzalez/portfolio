@@ -2,6 +2,8 @@
 
 The 4th iteration of my personal portfolio :tada:
 
+[Demo](https://bfgonzalez.netlify.app/)
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
