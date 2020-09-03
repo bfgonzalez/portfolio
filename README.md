@@ -1,6 +1,6 @@
 # Portfolio
 
-> My personal portfolio built with Gatsby
+The 4th iteration of my personal portfolio :tada:
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 
 <img src="https://github.com/bfgonzalez/portfolio/blob/master/public/static/thumbnail.png">
 
-The last time my [portfolio](https://bfgonzalez.github.io/) had any significant updates was in 2018 (this project was started halfway through 2019). Even if it wasn't too long ago, my portfolio was built with the classic HTML + CSS + JS combo (I even used JQuery when I didn't need that much JavaScript to begin with :woman_facepalming:)
+The last time my [portfolio](https://bfgonzalez.github.io/) had any significant updates was in 2018. Even if it wasn't too long ago, my portfolio was built with the classic HTML + CSS + JS combo (I even used JQuery when I didn't need that much JavaScript to begin with :woman_facepalming:)
 
 I've learned lot more since then, and I figured that redesigning and rebuilding my portfolio from scratch would be the best opportunity for me to apply most of the things I learned up until this point.
 
@@ -99,6 +99,6 @@ See [open issues](https://github.com/bfgonzalez/portfolio/issues) for a list of 
 
 ## License
 
-Copyright © 2020 [Bianca Gonzalez | @bfgonzalez](#Bianca Gonzalez | @bfgonzalez)
+Copyright © 2020 Bianca Gonzalez
 
 ---
