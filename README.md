@@ -78,7 +78,7 @@ $ yarn install
 $ gatsby develop
 ```
 
-5. If successful, you should get a message stating that you can now view the project on your localhost (`localhost:8000 by default)
+5. If successful, you should get a message stating that you can now view the project on your localhost (`localhost:8000` by default)
 
 ## Roadmap
 
