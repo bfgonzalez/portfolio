@@ -1,5 +1,7 @@
 # Portfolio
 
+<img src="https://github.com/bfgonzalez/portfolio/blob/master/public/static/thumbnail.png">
+
 The 4th iteration of my personal portfolio :tada:
 
 [Demo](https://bfgonzalez.netlify.app/)
@@ -17,8 +19,6 @@ The 4th iteration of my personal portfolio :tada:
 - [License](#license)
 
 ## About The Project
-
-<img src="https://github.com/bfgonzalez/portfolio/blob/master/public/static/thumbnail.png">
 
 The last time my [portfolio](https://bfgonzalez.github.io/) had any significant updates was in 2018. Even if it wasn't too long ago, my portfolio was built with the classic HTML + CSS + JS combo (I even used JQuery when I didn't need that much JavaScript to begin with :woman_facepalming:)
 
