@@ -11,15 +11,14 @@ import PropTypes from "prop-types"
 import Navbar from "../Navbar/Navbar"
 import Footer from "../Footer/Footer"
 
-const Layout = ({ children }) => {
-
+const Layout = ({ children, hasFooter }) => {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <div className="has-navbar-fixed-top">
         <main>{children}</main>
       </div>
-      <Footer/>
+      {hasFooter === true && <Footer />}
     </>
   )
 }

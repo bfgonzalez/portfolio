@@ -10,10 +10,10 @@ import "../styles/variables.scss"
 
 const Index = () => (
   <Layout>
-    <SEO/>
-    <Home/>
-    <About/>
-    <Work/>
+    <SEO />
+    <Home />
+    <About />
+    <Work />
   </Layout>
 )
 

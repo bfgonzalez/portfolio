@@ -1,17 +1,45 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import classnames from "classnames"
 
+import logo from "../../images/logo.png"
+
 const Navbar = () => {
   const [isActive, setActive] = useState(false)
+  const [activeTab, setActiveTab] = useState("")
+
+  const navbarLinks = ["#work", "#about", "/blog"]
+  const navbarText = ["WORK", "ABOUT", "BLOG"]
+
+  // handle activeTab state
+  useEffect(() => {
+    let url = window.location.href
+    let slug = url.split("/").pop()
+
+    switch (slug) {
+      case "#work":
+        setActiveTab("WORK")
+        break
+      case "#about":
+        setActiveTab("ABOUT")
+        break
+      case "blog":
+        setActiveTab("BLOG")
+        break
+      default:
+        setActiveTab("")
+    }
+  }, [activeTab])
 
   return (
     <nav
-      className="navbar is-fixed-top is-family-secondary is-transparent is-spaced"
+      className="navbar is-fixed-top is-transparent is-spaced"
       role="navigation">
       <div className="navbar-brand">
-        <Link className="navbar-item has-text-weight-bold is-size-4 has-text-primary" to="/">
-          BIANCA GONZALEZ
+        <Link
+          className="navbar-item has-text-weight-bold is-size-4 has-text-primary"
+          to="/">
+          <img src={logo} />
         </Link>
         <div className="navbar-burger" onClick={() => setActive(!isActive)}>
           <span></span>
@@ -23,24 +51,18 @@ const Navbar = () => {
         className={classnames("navbar-menu", isActive === true && "is-active")}
         data-target="navbar">
         <div id="navbar" className="navbar-end is-size-5 has-text-centered">
-          <Link
-            className="navbar-item"
-            onClick={() => setActive(!isActive)}
-            to="#work">
-            WORK
-          </Link>
-          <Link
-            className="navbar-item"
-            onClick={() => setActive(!isActive)}
-            to="#about">
-            ABOUT
-          </Link>
-          <Link
-            className="navbar-item"
-            onClick={() => setActive(!isActive)}
-            to="/blog">
-            BLOG
-          </Link>
+          {navbarText.map((text, index) => (
+            <Link
+              key={index}
+              className={classnames(
+                "navbar-item has-text-primary",
+                activeTab === text && "has-text-weight-bold"
+              )}
+              to={navbarLinks[index]}
+              onClick={() => setActiveTab(text)}>
+              {text}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>
