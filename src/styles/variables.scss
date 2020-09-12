@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Avenir&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Avenir&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppings: 400,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap");
 // If needed, change your variables before importing Bulma
 
 //Initial font variable
-$family-primary: "Avenir", sans-serif;
-$family-secondary: "Montserrat", sans-serif;
+$family-primary: "Poppins", sans-serif;
+$family-secondary: "Avenir", sans-serif;
 
 // Initial variables
 $dark-blue: #003366;
 $black: #424242;
-$grey: #9A9595;
-$white: #FFFFFF;
+$grey: #6c757d;
+$white: #ffffff;
 
 $custom-colors: $dark-blue, $black, $grey, $white;
 
@@ -30,8 +31,5 @@ $card-content-padding: 2rem;
 // increased line height for better readability
 $title-line-height: 1.5em;
 $subtitle-line-height: 1.7em;
-
-
-
 
 @import "../../node_modules/bulma/bulma.sass";
