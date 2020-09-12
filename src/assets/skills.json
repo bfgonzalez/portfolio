@@ -1,12 +1,10 @@
-[
-  {
-    "header": "Web Development",
-    "skills": "HTML, CSS, JavaScript, React, Gatsby, Node.js, Express.js, Sequelize, Google Apps Script, Python, Django REST Framework, PostgreSQL, Responsive Web Design",
-    "tools": "Git, Github, Sass, Bulma, npm, Yarn, Formik, Yup, axios, Netlify, Heroku, Visual Studio Code, Terminal"
-  },
-  {
-    "header": "User Interface Design",
-    "skills": "Research, Wireframes, Mockups, Prototyping",
-    "tools": "Pen & Paper, Figma, Adobe XD, InVision, Marvel"
-  }
-]
+{
+  "languages": "HTML, CSS, JavaScript (ES6), Google Apps Script, Python",
+  "frameworks": "Gatsby, Express, Django REST Framework, Bulma",
+  "libraries": "React (Hooks), Formik",
+  "hosting": "Netlify, Heroku, Github Pages",
+  "databases": "PostgreSQL",
+  "dev_tools": "Git, Github, npm, Yarn, Sass/Scss, Visual Studio Code, Terminal",
+  "design_tools": "Figma, Adobe XD, InVision, Marvel",
+  "misc": "Node.js, Sequelize, Yup, axios"
+}

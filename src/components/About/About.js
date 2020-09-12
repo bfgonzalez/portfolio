@@ -22,7 +22,7 @@ const About = () => (
           <span className="has-text-weight-bold has-text-primary">
             React <FontAwesomeIcon icon={faReact} width="32" />
           </span>
-          , and had the privilege of working with startups such as{" "}
+          , and have worked with startups such as{" "}
           <a className="has-text-weight-bold" href="https://senti.ai/">
             Senti
           </a>
@@ -37,6 +37,9 @@ const About = () => (
         </p>
       </div>
     </div>
+    <h1 className="title mb-4 has-text-centered is-size-4-mobile">
+      Cool tech I've worked with
+    </h1>
     <SkillCards />
   </section>
 )
