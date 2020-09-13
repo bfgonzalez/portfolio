@@ -16,17 +16,17 @@ const ProjectTile = ({ content, thumbnail }) => {
   } = content
 
   return (
-    <div className="columns">
-      <div className="column is-6 mb-2">
-        <div className="image">
+    <div className="columns is-centered is-vcentered">
+      <div className="column is-10 mb-2">
+        <div className="image mb-2">
           <img src={thumbnail} alt={altText} />
         </div>
-      </div>
-      <div className="column is-6 mb-4">
-        <h2 className="is-size-4 has-text-weight-bold">{projectTitle}</h2>
-        <p className="py-2 is-size-6">{projectDescription}</p>
+        <h2 className="is-size-4 is-size-5-mobile has-text-weight-bold">
+          {projectTitle}
+        </h2>
+        <p className="py-2 is-size-5">{projectDescription}</p>
         <Tags labels={techStack} />
-        <div className="field is-grouped">
+        <div className="field is-grouped mt-3">
           <div className="control">
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
               <button className="button is-black has-text-weight-bold">
@@ -54,7 +54,7 @@ const ProjectTiles = () => {
   return (
     <div>
       {projects.map((project, index) => (
-        <div key={index}>
+        <div key={index} className="mb-5">
           <ProjectTile
             key={index}
             content={project}

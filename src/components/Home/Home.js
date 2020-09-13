@@ -14,8 +14,8 @@ const Home = () => (
         BIANCA GONZALEZ
       </h1>
       <p className="is-size-4 is-size-4-mobile mb-1">
-        <span className="has-text-weight-bold has-text-primary">
-          Web Developer{" "}
+        <span className="has-text-weight-bold has-text-primary mr-1">
+          Web Developer
         </span>
         who specializes in{" "}
         <span className="has-text-weight-bold has-text-primary">
