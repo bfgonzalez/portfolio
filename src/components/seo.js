@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, title, url }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: "https://bfgonzalez.netlify.app/static/thumbnail.png",
         },
         {
           property: `og:type`,
