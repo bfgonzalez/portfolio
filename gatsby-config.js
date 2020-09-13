@@ -4,7 +4,7 @@ module.exports = {
     description: `Hi there, I'm Bianca! I'm a self-taught Web Developer and User Interface Designer.`,
     url: `https://bfgonzalez.netlify.app`,
     image: `https://imgur.com/UvZJjcu.jpg`,
-    author: `@bfgonzalez`
+    author: `@bfgonzalez`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,12 +27,21 @@ module.exports = {
         theme_color: `#003366`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
-        image: `src/images/thumbnail.png`
+        image: `src/images/thumbnail.png`,
       },
     },
-    `gatsby-plugin-sass`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-remove-serviceworker`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`400`, `800`],
+          },
+        ],
+      },
+    },
   ],
 }
