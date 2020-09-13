@@ -59,7 +59,10 @@ const Navbar = () => {
                 activeTab === text && "has-text-weight-bold"
               )}
               to={navbarLinks[index]}
-              onClick={() => setActiveTab(text)}>
+              onClick={() => {
+                setActiveTab(text)
+                setActive(!isActive)
+              }}>
               {text}
             </Link>
           ))}

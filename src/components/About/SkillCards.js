@@ -9,9 +9,9 @@ const SkillCard = ({ header, content }) => {
       className={classnames(
         "card has-text-white has-text-left has-background-primary"
       )}>
-      <div className="card-content has-text-white">
-        <p className="is-size-4 has-text-weight-bold">{header}</p>
-        <p className="is-size-4">{content}</p>
+      <div className="card-content has-text-white is-size-5">
+        <p className="has-text-weight-bold">{header}</p>
+        <p>{content}</p>
       </div>
     </div>
   )
