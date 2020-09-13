@@ -1,6 +1,6 @@
 # Portfolio
 
-<img src="https://github.com/bfgonzalez/portfolio/blob/master/public/static/thumbnail.png">
+<img src="https://bfgonzalez.netlify.app/static/thumbnail.png">
 
 The 4th iteration of my personal portfolio :tada:
 
