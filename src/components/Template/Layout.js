@@ -18,7 +18,7 @@ const Layout = ({ children, hasFooter }) => {
       <div className="has-navbar-fixed-top">
         <main>{children}</main>
       </div>
-      {hasFooter === true && <Footer />}
+      <Footer />
     </>
   )
 }
