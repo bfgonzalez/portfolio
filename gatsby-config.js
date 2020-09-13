@@ -3,7 +3,7 @@ module.exports = {
     title: `Bianca Gonzalez`,
     description: `Hi there, I'm Bianca! I'm a Web Developer who specializes in React. I solve problems & bring ideas to life through tech!`,
     url: `https://bfgonzalez.netlify.app`,
-    image: `https://i.imgur.com/IajfDuk.png`,
+    image: `https://bfgonzalez.netlify.app/static/thumbnail.png`,
     author: `@bfgonzalez`,
   },
   plugins: [
