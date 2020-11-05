@@ -1,41 +1,40 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import classnames from "classnames"
 
-import skills from "../../assets/skills.json"
-
-const SkillCard = ({ header, content }) => {
+const SkillCard = ({ skillset }) => {
   return (
     <div
       className={classnames(
         "card has-text-white has-text-left has-background-primary"
       )}>
       <div className="card-content has-text-white is-size-5">
-        <p className="has-text-weight-bold">{header}</p>
-        <p>{content}</p>
+        <p className="has-text-weight-bold">{skillset.category}</p>
+        <p>{skillset.tech}</p>
       </div>
     </div>
   )
 }
 
 const SkillCards = () => {
-  const headers = [
-    "Languages",
-    "Frameworks",
-    "Libraries",
-    "Hosting",
-    "Databases",
-    "Dev Tools",
-    "Design Tools",
-    "Misc",
-  ]
-
-  const content = Object.values(skills)
+  const skills = useStaticQuery(
+    graphql`
+      query AllSkillsQuery {
+        skill: allDatoCmsSkill {
+          nodes {
+            category
+            tech
+          }
+        }
+      }
+    `
+  )
 
   return (
     <div className="columns is-multiline">
-      {headers.map((header, index) => (
+      {skills.skill.nodes.map((skill, index) => (
         <div className="column is-half" key={index}>
-          <SkillCard index={index} header={header} content={content[index]} />
+          <SkillCard skillset={skill} />
         </div>
       ))}
     </div>

@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Bianca Gonzalez`,
@@ -41,6 +43,14 @@ module.exports = {
             variants: [`400`, `800`],
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: process.env.DATO_CMS_TOKEN,
+        preview: false,
+        disableLiveReload: false,
       },
     },
   ],
