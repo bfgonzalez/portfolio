@@ -20,7 +20,7 @@ const SkillCards = () => {
   const skills = useStaticQuery(
     graphql`
       query AllSkillsQuery {
-        skill: allDatoCmsSkill {
+        skill: allDatoCmsSkill(sort: { fields: position }) {
           nodes {
             category
             tech
