@@ -33,18 +33,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-remove-serviceworker`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            variants: [`400`, `800`],
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Poppins\:400, 800`,
+    //       },
+    //     ],
+    //     display: `block`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-datocms`,
       options: {

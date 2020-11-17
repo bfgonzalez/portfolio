@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{vx99:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("GrKc"),i=a("vrFN");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(i.a,{title:"Blog"}),l.a.createElement("div",{className:"columns is-centered is-vcentered full-height"},l.a.createElement("div",{className:"has-text-centered column is-8 is-10-mobile mt-6"},l.a.createElement("h1",{className:"title mb-4 is-size-4-mobile"},"Coming Soon!"))))}}}]);
+//# sourceMappingURL=component---src-pages-blog-js-e96710375dd5d13fef4c.js.map
