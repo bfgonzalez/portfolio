@@ -8,8 +8,8 @@ const Navbar = () => {
   const [isActive, setActive] = useState(false)
   const [activeTab, setActiveTab] = useState("")
 
-  const navbarLinks = ["#work", "#about", "/blog"]
-  const navbarText = ["WORK", "ABOUT", "BLOG"]
+  const navbarLinks = ["#work", "#about"]
+  const navbarText = ["WORK", "ABOUT"]
 
   // handle activeTab state
   useEffect(() => {
@@ -23,9 +23,6 @@ const Navbar = () => {
       case "#about":
         setActiveTab("ABOUT")
         break
-      case "blog":
-        setActiveTab("BLOG")
-        break
       default:
         setActiveTab("")
     }
@@ -33,11 +30,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className="navbar is-fixed-top is-transparent is-spaced"
+      className="navbar is-fixed-top is-transparent has-background-black is-spaced is-family-secondary"
       role="navigation">
       <div className="navbar-brand">
         <Link
-          className="navbar-item has-text-weight-bold is-size-4 has-text-primary"
+          className="navbar-item has-text-weight-bold is-size-4 has-background-white"
           to="/">
           <img src={logo} />
         </Link>
@@ -54,10 +51,7 @@ const Navbar = () => {
           {navbarText.map((text, index) => (
             <Link
               key={index}
-              className={classnames(
-                "navbar-item has-text-primary",
-                activeTab === text && "has-text-weight-bold"
-              )}
+              className="navbar-item has-text-primary has-text-weight-bold"
               to={navbarLinks[index]}
               onClick={() => {
                 setActiveTab(text)

@@ -9,18 +9,20 @@ $family-secondary: "Avenir", sans-serif;
 
 // Initial variables
 $dark-blue: #003366;
-$black: #424242;
+$black: #20232a;
 $grey: #6c757d;
 $white: #ffffff;
+$teal: #4ECDC4;
 
-$custom-colors: $dark-blue, $black, $grey, $white;
+$custom-colors: $dark-blue, $black, $grey, $white, $teal;
 
 // Derived variables
-$primary: $dark-blue;
+$primary: $teal;
 $text: $black;
 $footer-background-color: $white;
 $footer-padding: 0;
 $link: $primary;
+$link-hover: $white;
 
 // For margin and padding
 $spacer: 0.6rem;

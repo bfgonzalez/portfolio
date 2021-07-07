@@ -6,8 +6,9 @@ const SkillCard = ({ skillset }) => {
   return (
     <div
       className={classnames(
-        "card has-text-white has-text-left has-background-primary"
-      )}>
+        "card has-text-white has-text-left has-background-black"
+      )}
+      style={{ border: "2px solid #4ECDC4" }}>
       <div className="card-content has-text-white is-size-5">
         <p className="has-text-weight-bold">{skillset.category}</p>
         <p>{skillset.tech}</p>
