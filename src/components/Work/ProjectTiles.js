@@ -6,9 +6,9 @@ const ProjectTile = ({ project }) => {
   const techStack = JSON.parse(project.techStack)
 
   return (
-    <div className="columns is-centered is-vcentered">
+    <div className="columns is-centered is-vcentered has-text-white">
       <div className="column is-10 mb-2">
-        <div className="image mb-2">
+        <div className="image mb-2" style={{ border: "2px solid #4ECDC4" }}>
           <img src={project.thumbnail.url} alt={project.thumbnail.title} />
         </div>
         <h2 className="is-size-4 is-size-5-mobile has-text-weight-bold">
@@ -22,7 +22,9 @@ const ProjectTile = ({ project }) => {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer">
-              <button className="button is-black has-text-weight-bold">
+              <button
+                className="button is-black has-text-weight-bold"
+                style={{ border: "2px solid #4ECDC4" }}>
                 Code
               </button>
             </a>
@@ -33,7 +35,7 @@ const ProjectTile = ({ project }) => {
               href={project.projectUrl}
               target="_blank"
               rel="noopener noreferrer">
-              <button className="button is-primary has-text-weight-bold">
+              <button className="button is-primary has-text-weight-bold has-text-black">
                 Demo
               </button>
             </a>

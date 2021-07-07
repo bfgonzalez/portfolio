@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin, faDev } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => (
-  <footer id="footer" className="footer columns is-centered">
-    <div className="column has-text-centered has-text-primary">
+  <footer
+    id="footer"
+    className="footer columns is-centered has-background-black">
+    <div className="column has-text-centered has-text-white">
       <div className="is-size-3">
         <a
           href="https://github.com/bfgonzalez"
@@ -12,13 +14,6 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="mr-2">
           <FontAwesomeIcon icon={faGithub} width="32" />
-        </a>
-        <a
-          href="https://dev.to/bfgonzalez"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mr-2">
-          <FontAwesomeIcon icon={faDev} width="32" />
         </a>
         <a
           href="https://www.linkedin.com/in/bfgonzalez/"
@@ -29,7 +24,6 @@ const Footer = () => (
       </div>
       <p className="is-size-6">
         <a
-          // className="has-text-white mr-2"
           href="https://bfgonzalez.netlify.app/"
           target="_blank"
           rel="noopener noreferrer">
