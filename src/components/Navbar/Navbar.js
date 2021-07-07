@@ -8,8 +8,8 @@ const Navbar = () => {
   const [isActive, setActive] = useState(false)
   const [activeTab, setActiveTab] = useState("")
 
-  const navbarLinks = ["#work", "#about", "/blog"]
-  const navbarText = ["WORK", "ABOUT", "BLOG"]
+  const navbarLinks = ["#work", "#about"]
+  const navbarText = ["WORK", "ABOUT"]
 
   // handle activeTab state
   useEffect(() => {
@@ -22,9 +22,6 @@ const Navbar = () => {
         break
       case "#about":
         setActiveTab("ABOUT")
-        break
-      case "blog":
-        setActiveTab("BLOG")
         break
       default:
         setActiveTab("")
