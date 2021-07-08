@@ -38,7 +38,9 @@ const Navbar = () => {
           to="/">
           <img src={logo} />
         </Link>
-        <div className="navbar-burger" onClick={() => setActive(!isActive)}>
+        <div
+          className="navbar-burger has-text-primary"
+          onClick={() => setActive(!isActive)}>
           <span></span>
           <span></span>
           <span></span>

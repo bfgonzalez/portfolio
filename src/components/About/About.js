@@ -16,9 +16,7 @@ const About = () => {
   )
 
   return (
-    <section
-      id="about"
-      className="is-medium is-family-secondary has-background-black has-text-white">
+    <section id="about" className="section is-family-secondary has-text-white">
       <div className="columns has-text-centered is-centered mb-4">
         <div className="column is-10">
           <h1 className="title is-size-4-mobile mb-4 has-text-centered has-text-white">

@@ -6,7 +6,7 @@ const ProjectTile = ({ project }) => {
   const techStack = JSON.parse(project.techStack)
 
   return (
-    <div className="columns is-centered is-vcentered has-text-white">
+    <div className="columns is-centered is-vcentered has-text-white mb-8">
       <div className="column is-10 mb-2">
         <div className="image mb-2" style={{ border: "2px solid #4ECDC4" }}>
           <img src={project.thumbnail.url} alt={project.thumbnail.title} />
@@ -42,7 +42,6 @@ const ProjectTile = ({ project }) => {
           </div>
         </div>
       </div>
-      <hr />
     </div>
   )
 }
